@@ -1,0 +1,17 @@
+2022-03-19 12:37:43,837 WARNING werkzeug MainThread  :  * Debugger is active!
+2022-03-19 12:37:43,850 INFO werkzeug MainThread  :  * Debugger PIN: 788-024-477
+2022-03-19 12:37:43,869 INFO werkzeug Thread-1  :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-03-19 12:37:43,948 WARNING werkzeug MainThread  :  * Debugger is active!
+2022-03-19 12:37:43,948 INFO werkzeug MainThread  :  * Debugger PIN: 788-024-477
+2022-03-19 12:37:43,964 INFO werkzeug Thread-1  :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-03-19 12:38:06,281 INFO werkzeug MainThread  :  * Restarting with stat
+2022-03-19 12:38:11,477 WARNING werkzeug MainThread  :  * Debugger is active!
+2022-03-19 12:38:11,481 INFO werkzeug MainThread  :  * Debugger PIN: 788-024-477
+2022-03-19 12:38:11,493 INFO werkzeug Thread-1  :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-03-19 12:38:31,162 INFO werkzeug Thread-3  : 127.0.0.1 - - [19/Mar/2022 12:38:31] "[37mGET / HTTP/1.1[0m" 200 -
+2022-03-19 12:38:45,976 INFO werkzeug Thread-2  : 127.0.0.1 - - [19/Mar/2022 12:38:45] "[37mPOST /login HTTP/1.1[0m" 200 -
+2022-03-19 12:39:16,554 INFO werkzeug Thread-4  : 127.0.0.1 - - [19/Mar/2022 12:39:16] "[37mPOST /prediction HTTP/1.1[0m" 200 -
+2022-03-19 12:39:42,295 INFO werkzeug Thread-5  : 127.0.0.1 - - [19/Mar/2022 12:39:42] "[37mGET /features HTTP/1.1[0m" 200 -
+2022-03-19 12:39:45,005 INFO werkzeug Thread-6  : 127.0.0.1 - - [19/Mar/2022 12:39:45] "[37mGET /home HTTP/1.1[0m" 200 -
+2022-03-19 12:39:46,244 INFO werkzeug Thread-7  : 127.0.0.1 - - [19/Mar/2022 12:39:46] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-03-19 12:39:46,257 INFO werkzeug Thread-8  : 127.0.0.1 - - [19/Mar/2022 12:39:46] "[37mGET /login HTTP/1.1[0m" 200 -

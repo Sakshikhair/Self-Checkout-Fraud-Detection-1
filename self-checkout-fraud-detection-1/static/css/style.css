@@ -1,8 +1,13 @@
 .bg{
     background: #005AA7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to left, #FFFDE4, #74d0f5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FFFDE4, #74d0f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.bg .main-form{
+  height: 750px;
+}
+
 #my-pie-chart {
   height: 100px;
   width: 100px;
@@ -11,7 +16,7 @@
 }
 .mt-top{
     margin-top: 200px;
-    max-width: 70%;
+    max-width: 80%;
 }
 
 .card{
@@ -21,18 +26,21 @@
 }
 
 .font{
-    font-family: 'Permanent Marker', cursive;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
 }
 
 .topnav {
-    background-color: rgb(32, 105, 201);
+  background: #005AA7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #FFFDE4, #74d0f5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #FFFDE4, #74d0f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     overflow: hidden;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #455017;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -47,8 +55,8 @@
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #1ce6d5;
-    color: white;
+    background-color: #74d0f5;
+    color: #455017;
   }
 
   * {box-sizing: border-box;}
@@ -123,7 +131,6 @@ img {vertical-align: middle;}
   
   #about
   {
-    background: rgb(75, 172, 252);
       background-size: cover;
       background-position: 30% 30%;
       color:#555!important;
@@ -131,6 +138,12 @@ img {vertical-align: middle;}
       padding-top: 50px;
       padding-bottom: 50px;
       color:#555;
+  }
+
+  .bg .about{
+    height: 600px;
+    margin-top: 200px;
+    max-width: 80%;
   }
   
   
@@ -166,7 +179,9 @@ img {vertical-align: middle;}
   
   #services
   {
-      background: rgba(86, 188, 219, 0.959);
+    background: #005AA7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFDE4, #74d0f5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFDE4, #74d0f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
       background-size: cover;
       background-position: 30% 30%;
       color:#555!important;
@@ -178,14 +193,14 @@ img {vertical-align: middle;}
   #services h1
   {
       text-align: center;
-      color:#fff!important;
+      color:rgb(24, 21, 21)!important;
       padding-bottom: 10px;
   }
   
   #services h1::after
   {
       content: '';
-      background:#efefef;
+      background: #007bff;
       display: block;
       height:3px;
       width:170px;
@@ -194,13 +209,13 @@ img {vertical-align: middle;}
   #services h3
   {
       font-weight: 400;
-      color: white;
+      color: rgb(26, 23, 23);
       margin: auto;
   }
   #services p
   {
       font-weight: 400;
-      color: white;
+      color: rgb(32, 28, 28);
       margin: auto;
       margin-top: 20px;
   }
@@ -209,7 +224,7 @@ img {vertical-align: middle;}
   #services i
   {
       
-      color: white;
+      color: black;
   }
   
   .icon
@@ -219,7 +234,7 @@ img {vertical-align: middle;}
       padding: 20px;
       height: 80px;
       width:80px;
-      border:1px solid #fff;
+      border:1px solid black;
       border-radius:50%;
   }
   

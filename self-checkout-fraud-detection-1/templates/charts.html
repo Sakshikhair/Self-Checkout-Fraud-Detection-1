@@ -70,24 +70,36 @@
               <a class="nav-link active" aria-current="page" href="#model">Models</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#piechart">Feature generation</a>
+              <a class="nav-link" href="#feature">Feature generation</a>
             </li>
             
            
           </ul>
         </div>
+        
           <section id="model">
-            <div class="col-xs- col-sm-8 col-md-8 mt-4 ">
+            <div class="col-10 text-center" width="100px">
                 <h1 class="text-center">Models</h1>
                 <div class="card mx-0 ms-md-auto">
                     <div class="card-body">
-                        <div class="chart-container" style="position: center;">
+                        <div class="chart-container" style="position: center;" height="200">
                             <canvas id="myChart"></canvas>
 
                         </div>
                     </div>
                 </div>
             </div>
+</section>
+<section id="feature">
+<div class="my-3 text-center">
+    <h1>Feature Generation</h1>
+    <img src="static/img/img1.jpeg" width="800">
+    
+    <img src="static/img/img2.jpeg" width="800">
+    
+    <img src="static/img/img3.jpeg" width="800">
+    <img src="static/img/img4.jpeg" width="800">
+</div>
 </section>
             <script>
                 var ctx = document.getElementById('myChart');
@@ -96,8 +108,8 @@
                     data: {
                         labels: ['LR', 'SVC', 'XGB', 'RFC', 'ADB'],
                         datasets: [{
-                            label: 'Accuracy in %',
-                            data: [98.51, 98.9, 98.49, 97.7, 98.92],
+                            label: 'Accuracy',
+                            data: [0.9851, 0.989, 0.9849, 0.977, 0.9892],
                             backgroundColor: [
                                 'rgba(255, 99, 132,0.8)',
                                 'rgba(54, 162, 235,0.8)',
@@ -114,19 +126,21 @@
                                 'rgba(255, 159, 64, 1)'
                             ],
                             borderWidth: 1
+                            
                         }]
                     },
                     options: {
                         scales: {
                             y: {
-                                beginAtZero: true
+                                beginAtZero: false
+                                
                             }
                         }
                     }
                 });
             </script>
 
-<section id="piechart">
+<!---<section id="piechart">
     <div class="mt-4">
 <h1>Piechart</h1>
 <div id="chartContainer" style="height: 500px; width: 100%;"></div>
